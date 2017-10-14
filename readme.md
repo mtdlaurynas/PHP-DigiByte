@@ -119,5 +119,5 @@ $dgb->send( 'jared', 'DNYJ2ANdx1GL4sbCyikaVgYrf2GfiCtf8N', 100 );
 ```
 ##
 
-Default port is 8332
-Default host is 127.0.0.1
+Default port is 8332<br>
+<br>Default host is 127.0.0.1
