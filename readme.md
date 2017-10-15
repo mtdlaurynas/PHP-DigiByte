@@ -6,9 +6,9 @@ A basic PHP library to talk to a digibyted daemon to get you started in your Dig
 The PHP library might be buggy so contribution is welcomed!
 
 ## digibyte.conf
-Create a file called **digibyte.conf** in DigiByte's core wallet data directory (usually %appdata% in Windows).
+It is very important to create a file called **digibyte.conf** in DigiByte's core wallet data directory (usually %appdata% in Windows).
 
-Contents of digibyte.conf
+Contents of digibyte.conf:
 
 ```
 server=1
@@ -16,6 +16,9 @@ rpcport=8332
 rpcusername=what-ever-username-you-want
 rpcpassword=what-ever-password-you-want
 ```
+
+## Note!
+If **digibyted** doesn't work, launch the full core wallet instead.
 
 ## Requirements
 
