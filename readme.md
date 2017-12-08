@@ -1,4 +1,4 @@
-Donations (DGB): D8PXrfaE9JpvdosACCLrEUCe5SQh782qzv
+Donations (DGB): D8KZcMV5t7x5Vrq1NxT86Td8o516tnLzHn
 
 # PHP-DigiByte
 
