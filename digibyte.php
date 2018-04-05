@@ -33,6 +33,17 @@ class DGB  {
         $this->client = new jsonRPCClient( $connect_string );
     }
 
+    /** 
+    * 2 functions for dealing with already coded transactions
+    */
+    function decode_transaction($tx) {
+        return $this->client->decoderawtransaction($tx);		
+    }
+	
+    function send_raw_transaction($tx) {
+        return $this->client->sendrawtransaction($tx);
+    }	
+
 
     /**
      * Creates or Retrievs a DigiByte address for an account name
