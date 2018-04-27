@@ -110,7 +110,7 @@ class jsonRPCClient {
         if ($this->notification) {
             $currentId = NULL;
         } else {
-            $currentId = $this->id;
+            $currentId = $this->id++; //change id with each request
         }
 
         // prepares the request
@@ -142,7 +142,7 @@ class jsonRPCClient {
 
         // debug output
         if ($this->debug) {
-            echo nl2br($debug);
+            echo nl2br($this->debug);
         }
 
         // final checks and return
